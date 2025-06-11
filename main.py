@@ -24,7 +24,7 @@ st.markdown(
 )
 
 st.markdown('<div class="question">당신은 밥을 먹을 때 무엇부터 먹나요?</div>', unsafe_allow_html=True)
-st.markdown('<div class="description">아래 버튼 중 하나를 선택해 주세요. 선택 후 다시 누르면 결과가 사라집니다.</div>', unsafe_allow_html=True)
+st.markdown('<div class="description">아래 버튼 중 하나를 선택해 주세요.</div>', unsafe_allow_html=True)
 
 # 버튼 상태 저장용 세션변수 초기화
 if 'selected' not in st.session_state:
@@ -89,9 +89,9 @@ if st.session_state.selected:
 
     # 심리테스트 느낌 나는 간단한 해석 문구 추가
     interpretations = {
-        "밥": "밥부터 먹는 당신은 기본에 충실하고 안정감을 중요시하는 타입입니다.",
-        "반찬": "반찬부터 먹는 당신은 변화를 즐기고 다양한 자극을 좋아하는 창의적인 성격이에요.",
-        "국": "국부터 먹는 당신은 여유롭고 감성을 중시하는 따뜻한 마음의 소유자랍니다.",
+        "밥": "밥부터 먹는 당신은 바보입니다.",
+        "반찬": "반찬부터 먹는 당신은 바보이에요.",
+        "국": "국부터 먹는 당신은 바보랍니다.",
     }
     st.markdown(f"""
     <div style="margin-top:30px; font-size:20px; color:#483D8B; font-style: italic; text-align:center;">
