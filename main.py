@@ -21,4 +21,5 @@ with col4:
 
 # 버튼 중 하나라도 눌리면 사진 보여주기
 if show_image:
-    st.image("cookiemerong.jpg", caption="엄마 메롱 😛", use_container_width=True)
+    st.image("cookiemerong.jpg", use_container_width=True)
+    st.markdown("<h1 style='text-align: center; color: black;'>엄마 메롱 😛</h1>", unsafe_allow_html=True)
