@@ -21,4 +21,4 @@ with col4:
 
 # 버튼 중 하나라도 눌리면 사진 보여주기
 if show_image:
-    st.image("cookiemerong.jpg", caption="엄마 메롱 😛", use_column_width=True)
+    st.image("cookiemerong.jpg", caption="엄마 메롱 😛", use_container_width=True)
