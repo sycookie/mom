@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🔮 재미있는 심리테스트 🔮")
+st.title("🔮 초간단 심리테스트 🔮")
 
 st.markdown(
     """
